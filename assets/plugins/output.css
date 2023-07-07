@@ -1155,6 +1155,14 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -2518,10 +2526,6 @@ video {
 
   .md\:text-\[40px\] {
     font-size: 40px;
-  }
-
-  .md\:text-\[52px\] {
-    font-size: 52px;
   }
 
   .md\:text-\[56px\] {

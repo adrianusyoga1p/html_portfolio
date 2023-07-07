@@ -282,6 +282,36 @@ body::before{
     transform: scale(120%) rotate(3deg);
 }
 
+.portfolio li{
+    position: relative;
+    padding-left: 22px;
+    color: var(--colorWhite);
+    margin-bottom: 16px;
+}
+
+.portfolio li::before{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--colorAksen);
+}
+
+.portfolio li:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: var(--colorWhite);
+    left: 7px;
+    top: 19px;
+    transform: translateX(-50%);
+}
+
 /* Typing Animations */
 @keyframes typing {
     0%{
