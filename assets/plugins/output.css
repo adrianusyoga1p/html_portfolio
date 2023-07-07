@@ -1922,6 +1922,10 @@ video {
   padding-top: 132px;
 }
 
+.pb-\[32px\] {
+  padding-bottom: 32px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2518,6 +2522,10 @@ video {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:pb-\[52px\] {
+    padding-bottom: 52px;
   }
 
   .md\:text-\[40px\] {
