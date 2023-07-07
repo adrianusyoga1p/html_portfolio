@@ -282,15 +282,6 @@ body::before{
     transform: scale(120%) rotate(3deg);
 }
 
-/* Section Portfolio */
-section#portfolio{
-    overflow-y: auto;
-}
-
-section#portfolio::-webkit-scrollbar{
-    display: none;
-}
-
 /* Typing Animations */
 @keyframes typing {
     0%{

@@ -9,7 +9,7 @@ window.onload = () => {
         let scrollY = window.pageYOffset;
         sections.forEach(current => {
             const sectionHeight = current.offsetHeight;
-            const sectionTop = current.offsetTop - 50,
+            const sectionTop = current.offsetTop - 80,
             sectionId = current.getAttribute("id");
 
             if (
