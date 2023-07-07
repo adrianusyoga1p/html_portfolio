@@ -71,8 +71,8 @@ body::before{
     right: 0;
     left: 0;
     z-index: 2;
-    backdrop-filter: blur(20px);
-    background: #ffffff0f;
+    backdrop-filter: blur(5px);
+    background: #ffffff09;
 }
 
 .navbar-wrapper .navbar{
